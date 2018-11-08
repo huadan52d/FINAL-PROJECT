@@ -8,8 +8,7 @@
     var LeafIcon = L.Icon.extend({
       options: {
         shadowUrl: 'icon.png',
-        iconSize:     [35, 40],
-        shadowSize:   [25, 26],
+        iconSize:     [60, 60],
       }
     });
     var wineIcon = new LeafIcon({iconUrl: 'icon.png'});
@@ -22,6 +21,8 @@
                    items["image_url"] = value.fields.image_url;
                    items["contact"] = value.fields.contact;
                    items["address"] = value.fields.address;
+                   items["open_closed"]=value.fields.open_closed;
+                   items["opening_time"]=value.fields.opening_time;
                    items["Lat"] = value.fields.Lat;
                    items["Lng"] = value.fields.Lng;
                    data.push(items);
@@ -32,5 +33,5 @@ function show_districts(){
       for (var i in data) {
           var latlng = L.latLng({ lat: data[i].Lat, lng: data[i].Lng});
           L.marker( latlng,{icon:wineIcon})
-              .bindPopup( '<img src="' + data[i].image_url+'" width = "80px+" padding="5px"><br>'+'<strong>'+ data[i].name+ '</strong>'+"<br>"+data[i].genre+"<br>"+data[i].contact+"<br>"+data[i].address)
+              .bindPopup( '<img src="' + data[i].image_url+'" width = "80px+" padding="5px"><br>'+'<strong>'+ data[i].name+ '</strong>'+"<br>"+data[i].genre+"<br>"+data[i].contact+"<br>"+data[i].address+"<br>"+data[i].open_closed+"<br>"+data[i].opening_time)
               .addTo(map)}};
