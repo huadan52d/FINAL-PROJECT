@@ -41,14 +41,14 @@ $(document).ready(function() {
       opposite: true
    }];
    var tooltip = {
-      shared: true
+      shared: true,
    };
    var legend = {
       layout: 'vertical',
       align: 'left',
-      x:100,
+      y:1,
+      x:60,
       verticalAlign: 'top',
-      y:5,
       floating: true,
    };
    var series= [{

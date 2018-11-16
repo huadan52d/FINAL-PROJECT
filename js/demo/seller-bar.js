@@ -46,9 +46,9 @@ $(document).ready(function() {
    var legend = {
       layout: 'vertical',
       align: 'left',
-      x: 100,
+      y:1,
+      x:60,
       verticalAlign: 'top',
-      y:4,
       floating: true,
    };
    var series= [{
