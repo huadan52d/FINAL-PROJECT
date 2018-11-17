@@ -400,8 +400,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 2.5em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   clear: both;
   width: 100%;
   display: block; }
