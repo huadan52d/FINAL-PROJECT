@@ -156,7 +156,7 @@ figure {
         margin: 0 0 15px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -165,7 +165,7 @@ figure {
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", Arial, sans-serif;
+          font-family: Arial;
           -webkit-transition: 0s;
           -o-transition: 0s;
           transition: 0s; }
