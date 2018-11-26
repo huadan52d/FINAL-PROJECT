@@ -383,7 +383,7 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 2.5em; }
+  padding: 0 4em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
@@ -400,8 +400,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 1em;
+  padding-bottom:8em;
   clear: both;
   width: 100%;
   display: block; }
