@@ -241,7 +241,7 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 350px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -383,7 +383,7 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 4em; }
+  padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
