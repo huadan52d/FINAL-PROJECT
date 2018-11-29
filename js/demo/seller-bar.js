@@ -44,12 +44,12 @@ $(document).ready(function() {
       shared: true
    };
    var legend = {
-      layout: 'vertical',
-      align: 'left',
-      y:1,
-      x:60,
-      verticalAlign: 'top',
-      floating: true,
+     layout: 'horizontal',
+     align: 'left',
+     x:2,
+     y:20,
+     verticalAlign: 'bottom',
+     floating: true,
    };
    var series= [{
          name: '均價(hk$)',

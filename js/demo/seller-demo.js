@@ -44,11 +44,11 @@ $(document).ready(function() {
       shared: true,
    };
    var legend = {
-      layout: 'vertical',
+      layout: 'horizontal',
       align: 'left',
-      y:0,
-      x:0,
-      verticalAlign: 'top',
+      x:2,
+      y:20,
+      verticalAlign: 'bottom',
       floating: true,
    };
    var series= [{
