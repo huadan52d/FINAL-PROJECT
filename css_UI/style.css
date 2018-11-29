@@ -462,7 +462,8 @@ body.offcanvas {
   padding: 1.5em;
   background: #f9bf3f;
   float:left;
-  width:500px}
+  width:500px;
+  position:inherit;}
 
   .hire h2 {
     line-height: 1.5; }
