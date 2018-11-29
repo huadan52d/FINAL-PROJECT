@@ -17,8 +17,8 @@ var myPieChart = new Chart(ctx, {
     legend: {
       display: true,
       position:"bottom",
-      width:20,
-      height:20
+      width:5,
+      height:5
     }
   }
 });
