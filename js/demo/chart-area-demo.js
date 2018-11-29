@@ -7,7 +7,7 @@ Chart.defaults.global.defaultFontColor = "#151515";
   var myBarChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ["hk$1000以上(包括)","hk$500(包括)-hk$1000","hk$100(包括)-hk$500","hk$100以下"],
+      labels: ["hk$1000以上","hk$500-1000","hk$100-500","hk$100以下"],
       datasets: [{
         label: "種數",
         backgroundColor: "rgba(2,117,216,1)",
