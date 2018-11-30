@@ -1,7 +1,7 @@
 $("button#get_data").click(function() {
         var table1_items = [];
          var i = 0;
-         var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A8?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc";
+         var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A8?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc&view=Grid%20view";
          var table1_dataSet = [];
          $.getJSON(airtable_read_endpoint, function(result) {
                 $.each(result.records, function(key,value) {
@@ -35,7 +35,7 @@ $("button#get_data").click(function() {
      $("button#get_price").click(function() {
                var table2_items = [];
                 var i = 0;
-                var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A82?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc";
+                var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A82?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc&view=Grid%20view";
                 var table2_dataSet = [];
                 $.getJSON(airtable_read_endpoint, function(result) {
                        $.each(result.records, function(key,value) {
@@ -69,7 +69,7 @@ $("button#get_data").click(function() {
               $("button#get_average").click(function() {
                         var table3_items = [];
                          var i = 0;
-                         var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A83?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc";
+                         var airtable_read_endpoint ="https://api.airtable.com/v0/appw2nhwOdq8ewe2j/%E5%9D%87%E5%83%B9%E8%A1%A83?api_key=keyV24tV2nJhgN75C&sortField=評分&sortDirection=desc&view=Grid%20view";
                          var table3_dataSet = [];
                          $.getJSON(airtable_read_endpoint, function(result) {
                                 $.each(result.records, function(key,value) {
