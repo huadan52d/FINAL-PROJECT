@@ -22,24 +22,19 @@ body {
   @media screen and (max-width: 320px) {
     body {
       font-size: 2em; } }
-
 .pic{width:180px;
 height:180px;
 margin:6px;
 }
-
 .pic1{width:250px;
 height:180px;
 margin:0;}
-
 .pic2{width:100px;
 height:110px;
 margin:0;}
-
 .pic3{width:80px;
 height:110px;
 margin:0;}
-
 .item{width:150px;}
 a {
   color: #2c98f0;
