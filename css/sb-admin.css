@@ -133,7 +133,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .sidebar {
-  width: 90px !important;
+  width: 0px !important;
   background-color: #212529;
   min-height: calc(100vh - 56px);
 }
@@ -179,7 +179,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .sidebar.toggled {
-  width: 0 !important;
+  width: 120px !important;
   overflow: hidden;
 }
 
