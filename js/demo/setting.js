@@ -7,10 +7,11 @@
     var data = [];
     var LeafIcon = L.Icon.extend({
       options: {
-        shadowUrl: 'icon.png',
+        Url: 'icon.png',
         iconSize:  [60, 60],
       }
     });
+    var wineIcon = new LeafIcon({iconUrl: 'icon.png'});
     $.getJSON(airtable_read_endpoint, function(result) {
            $.each(result.records, function(key,value) {
                items = {};
@@ -27,7 +28,6 @@
                    console.log(items);
             });
     });
-var wineIcon = new LeafIcon({iconUrl: 'icon.png'});
 function show_districts(){
       for (var i in data) {
           var latlng = L.latLng({ lat: data[i].Lat, lng: data[i].Lng});
