@@ -16,7 +16,7 @@ body {
   font-family: Arial;
   font-weight: 400;
   font-size: 16px;
-  line-height: 2.5;
+  line-height: 3.5em;
   color: black;
   }
   @media screen and (max-width: 320px) {
@@ -419,7 +419,7 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 4em;
+      padding-top: 9.5em;
       padding-bottom: 4em; } }
 
 .author-img {
